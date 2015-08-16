@@ -1,0 +1,29 @@
+{
+  "name": "thunk-runner",
+  "version": "0.1.0",
+  "description": "Execute each thunk in an array of thunks, nonconcurrently",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "xo",
+    "pretest": "npm run -s lint",
+    "test": "tape 'test/**/*.js'"
+  },
+  "keywords": [
+    "thunk",
+    "runner",
+    "queue",
+    "foreach",
+    "async",
+    "nonconcurrent",
+    "sequential"
+  ],
+  "author": "Joakim Carlstein <joakim@klei.se>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.2.0",
+    "xo": "^0.6.0"
+  },
+  "xo": {
+    "space": true
+  }
+}
